@@ -14,6 +14,8 @@ group :development, :test do
   gem 'shoulda-matchers'
   gem 'factory_bot_rails'
   gem 'pry-rails' #debugger
+  gem 'codeclimate'
+  gem 'simplecov', require: false
 end
 
 group :development do
